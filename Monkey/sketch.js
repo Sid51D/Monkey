@@ -33,7 +33,7 @@ function setup() {
 
 
 function draw() {
-  background(225);
+  background('lightblue');
   
   if(ground.x<0){
     ground.x = ground.width/2;
